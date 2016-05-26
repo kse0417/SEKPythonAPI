@@ -1,6 +1,6 @@
 import distutils.core
 
-#TODO: Make sure that the packages are correctly setup
+# TODO: Make sure that the packages are correctly setup
 distutils.core.setup(
     name='SEKPythonAPI',
     version='1.0.0',
