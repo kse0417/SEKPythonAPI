@@ -2,7 +2,7 @@ import distutils.core
 
 # TODO: Make sure that the packages are correctly setup
 distutils.core.setup(
-    name='SEKPythonAPI',
+    name='SekPythonApi',
     version='1.0.0',
     packages=['djangorestframework, markdown, django-filter'],
     url='',
