@@ -4,7 +4,7 @@ import distutils.core
 distutils.core.setup(
     name='SekPythonApi',
     version='1.0.0',
-    install_requires=['Django, djangorestframework, django-filter, django-rest-swagger, markdown'],
+    install_requires=['Django, djangorestframework, django-filter, django-rest-swagger, markdown, psycopg2'],
     url='',
     license='GNU General Public License v3.0',
     author='Sung Eun Kim',

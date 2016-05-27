@@ -2,7 +2,7 @@ from rest_framework import serializers
 from .task import Task
 
 
-class TaskSerializer(serializers.HyperlinkedModelSerializer):
+class TaskSerializer(serializers.ModelSerializer):
     class Meta:
         model = Task
-        fields = ('url', 'title', 'description', 'dueDate', 'priority')
+        fields = ('id', 'title', 'description', 'due_date', 'priority')
